@@ -1,6 +1,6 @@
-public class Main {
+public class EllysString {
     public static void main(String[] args) {
-        System.out.println(calculateMinOperations("ESPRIT"));
+        System.out.println(calculateMinOperations("ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
     }
 
     public static int calculateMinOperations(String input) {
@@ -40,7 +40,7 @@ public class Main {
             }
         }
 
+        System.out.println(chars);
         return numOfOperations;
     }
-
 }
